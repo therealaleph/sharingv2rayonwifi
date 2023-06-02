@@ -3,23 +3,33 @@
 اشتراک گذاری اتصال Reality یا هر نوع از اشتراک VPN بر پایه v2ray از کامپیوتر بر روی تمامی دستگاه های موجود در یک شبکه مشترک 
 (فارسی ساده: شما یک کامپیوتر دارید، به vpn وصلش می کنید، دستگاه های دیگه روی همون شبکه wifi می تونن از اون vpn استفاده کنن بدون نیاز به نرم افزار)
 
-۱: اینجا (https://github.com/MatsuriDayo/nekoray/releases) نرم افزار رو دانلود می کنید 
+۱: اینجا (https://github.com/MatsuriDayo/nekoray/releases) نرم افزار رو دانلود می کنید
+
 ![image](https://github.com/therealaleph/sharingv2rayonwifi/assets/67456590/889e79ea-fc61-4b24-8be9-b26227cf7276)
+
 
 ۲: نرم افزار رو extract میکنید و وقتی نرم افزار باز میشه به جای هسته v2ray (core) هسته singbox رو انتخاب میکنید. 
 ۳. لینک اشتراکی که از پنل یا بات گرفتید رو وارد می کنید (به صورت subscription link)، کافیه روی یک نقطه خالی وسط صفحه کلیک کنید و ctrl + v رو بزنید (با در نظر گرفتن کپی کردن لینک اشتراک از قبل)‌
 ۴. از نوار بالا، ابتدا preferences رو کلیک می کنید و بعد basic settings 
+
 ![image](https://github.com/therealaleph/sharingv2rayonwifi/assets/67456590/8b4268ad-81aa-4fc1-89f5-2bddb0565484)
+
 
 ۵. در صفحه جدید، Listening Address رو از 127.0.0.1 به 0.0.0.0 تغییر میدید و Ok رو میزنید، اگر UAC در ویندوزتون فعال باشه ممکنه ازتون اجازه دسترسی به شبکه خصوصی بگیره که اجازه می دید‌ (دو تا گزینه دارید، هر دو رو تیک بزنید)
 ۶. روی کیبورد، دکمه ویندوز (چهار تا مربع، بین alt و کنترل سمت چپ) رو همزمان با R نگه دارید، در صفحه ای که میاد تایپ کنید cmd و ok رو بزنید
+
 ![image](https://github.com/therealaleph/sharingv2rayonwifi/assets/67456590/a532c72b-b992-43bf-9941-a10430c3eee6)
 
+
 ۷. در صفحه جدید، تایپ کنید ipconfig و enter رو بزنید، یک سری چرندیات میاد بالا که شما دنبال یک چیز میگردید: ipv4 address 
+
 ![image](https://github.com/therealaleph/sharingv2rayonwifi/assets/67456590/50eac650-8202-4823-8407-9280f5c74da4)
 
+
 ۸. در nekoray به یکی از کانکشن ها متصل بشید و مطمئن بشید که وصله (می تونید در قسمت پراکسی در فایرفاکس، تنظیم کنید و بعد گوگل رو باز کنید ببینید وصل میشه یا نه
+
 ![image](https://github.com/therealaleph/sharingv2rayonwifi/assets/67456590/620bd56a-53fb-4df1-a315-bfe1a56430b4)
+
 ![image](https://github.com/therealaleph/sharingv2rayonwifi/assets/67456590/38614c37-53da-4f38-9906-66c7e01636bf)
 
 ۹. وارد دستگاه اندروید یا iOS خودتون میشید و وارد تنظیمات شبکه wifi میشید و گزینه proxy رو پیدا می کنید و در host/ip، آی پی ای که در مرحله ۷ پیدا کردید رو تایپ می کنید و در پورت:‌ عدد 2080 و تنظیمات رو اعمال می کنید (آموزش تصویری (https://www.webnots.com/how-to-setup-proxy-in-windows-mac-iphone-and-android/))
